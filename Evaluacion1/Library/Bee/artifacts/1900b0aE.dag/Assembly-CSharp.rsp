@@ -117,6 +117,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"D:/compu/Unity/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/compu/Unity/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/compu/Unity/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -323,6 +324,7 @@
 -r:"D:/Users/User/Documents/GitHub/Evaluacion-1-scripting/Evaluacion1/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"D:/Users/User/Documents/GitHub/Evaluacion-1-scripting/Evaluacion1/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"D:/Users/User/Documents/GitHub/Evaluacion-1-scripting/Evaluacion1/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -349,8 +351,25 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/scrips/agua.cs"
-"Assets/scrips/Jugador.cs"
+"Assets/MoveCamara.cs"
+"Assets/Scripts/point2/ClickableTile.cs"
+"Assets/Scripts/point2/ControladorAtaque.cs"
+"Assets/Scripts/point2/ControladorEvento.cs"
+"Assets/Scripts/point2/ModuloAtaque.cs"
+"Assets/Scripts/point2/Node2.cs"
+"Assets/Scripts/point2/PosicionBiome.cs"
+"Assets/Scripts/point2/pruebas/attackingPrueba.cs"
+"Assets/Scripts/point2/TileMap.cs"
+"Assets/Scripts/point2/TileType.cs"
+"Assets/Scripts/point2/Unit.cs"
+"Assets/Scripts/Punto1/Node.cs"
+"Assets/Scripts/Punto1/Player.cs"
+"Assets/Scripts/Punto1/SearchPath.cs"
+"Assets/Scripts/Q/Characters/Base.cs"
+"Assets/Scripts/Q/Characters/Hero.cs"
+"Assets/Scripts/Q/Characters/ScriptableCharacter.cs"
+"Assets/Scripts/Q/Characters/Soldier.cs"
+"Assets/Scripts/Q/VideoGame/MatchByTurns.cs"
 -langversion:9.0
 
 /deterministic

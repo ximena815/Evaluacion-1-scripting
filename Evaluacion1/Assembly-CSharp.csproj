@@ -56,8 +56,25 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\scrips\Jugador.cs" />
-    <Compile Include="Assets\scrips\agua.cs" />
+    <Compile Include="Assets\Scripts\Q\Characters\Base.cs" />
+    <Compile Include="Assets\Scripts\point2\ControladorAtaque.cs" />
+    <Compile Include="Assets\Scripts\point2\TileMap.cs" />
+    <Compile Include="Assets\Scripts\Punto1\Node.cs" />
+    <Compile Include="Assets\Scripts\point2\pruebas\attackingPrueba.cs" />
+    <Compile Include="Assets\Scripts\Q\Characters\ScriptableCharacter.cs" />
+    <Compile Include="Assets\Scripts\point2\ModuloAtaque.cs" />
+    <Compile Include="Assets\Scripts\point2\ControladorEvento.cs" />
+    <Compile Include="Assets\Scripts\Q\Characters\Soldier.cs" />
+    <Compile Include="Assets\Scripts\point2\Node2.cs" />
+    <Compile Include="Assets\Scripts\point2\PosicionBiome.cs" />
+    <Compile Include="Assets\MoveCamara.cs" />
+    <Compile Include="Assets\Scripts\point2\ClickableTile.cs" />
+    <Compile Include="Assets\Scripts\Q\Characters\Hero.cs" />
+    <Compile Include="Assets\Scripts\point2\TileType.cs" />
+    <Compile Include="Assets\Scripts\Q\VideoGame\MatchByTurns.cs" />
+    <Compile Include="Assets\Scripts\Punto1\Player.cs" />
+    <Compile Include="Assets\Scripts\Punto1\SearchPath.cs" />
+    <Compile Include="Assets\Scripts\point2\Unit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -311,6 +328,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\compu\Unity\2021.3.7f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -758,6 +778,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0131D502-A1CF-C514-C92A-AB1451D4C84C}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
