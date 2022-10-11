@@ -42,7 +42,7 @@ public class ControladorEvento : MonoBehaviour
             if(TiempoActual < 0)
             {
                 TurnodelJugador = false;
-                JugadorUI.DOMoveX(391.5f + 300f, 0.5f);
+                JugadorUI.DOMoveX(238f + 300f, 0.5f);
                 trigger = true;
             }
         }
@@ -59,7 +59,7 @@ public class ControladorEvento : MonoBehaviour
             if (TiempoActual < 0)
             {
                 TurnodelJugador = true;
-                JugadorUI.DOMoveX(391.5f, 0.5f);
+                JugadorUI.DOMoveX(238f - 132, 0.5f);
                 TurnoJugadorDenuevo();
                 trigger = true;
             }
