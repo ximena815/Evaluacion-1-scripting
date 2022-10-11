@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class Node2{
+public class Node2
+{
 
 	
 	[SerializeField] int costo;
